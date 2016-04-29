@@ -7,10 +7,10 @@ import numpy as np
 # ==============================================================================
 # Define variables
 # ==============================================================================
-# define constants
-workspace = '/local/home/ncook/Projects/Project2/Stage7'
-dpath = workspace + '/Data/Catalogues/NJCM_EWLLP_reSDSS.fit'
-spath = workspace + '/Data/Catalogues/NJCM_EWLLP_sdss_flags.fit'
+# define constants (for example run)
+workspace = './'
+dpath = workspace + 'input_catalogue.fits'
+spath = workspace + 'output_catalogue.fits'
 flagcol = 'sdss_flags'
 
 
